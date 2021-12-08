@@ -6,9 +6,9 @@ public class Main {
         int bonus;
         if (receipts > 1000) {
             bonus = receipts / 100;
-            System.out.println(bonus + total + " руб.");
+        } else {
+            bonus = 0;
         }
-
-
+        System.out.println(bonus + total + " руб.");
     }
 }
